@@ -1,6 +1,6 @@
-| Nama      | Fajar Agung Nugroho |
+| Nama      | Nuryadi |
 | ----------- | ----------- |
-| NIM     | 312010448       |
+| NIM     | 312010621       |
 | Kelas   | TI.20.A.1        |
 
 ## Langkah langkah praktikum 5
