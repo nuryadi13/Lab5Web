@@ -67,47 +67,31 @@ Pilihan menggunakan checkBox dengan perhitungan otomatis
 
 ## Jawab
 
-Membuat validasi nama, no.telp, Email
+Membuat validasi nama lengkap, email, dan alamat
 
-## 1. Nama
-Saya akan memberikan Validasi berupa inputan hanya boleh mengguankan Huruf/Alphabet saja. Contoh: Fajar (benar), Fajar02 (salah).
+# form wajib diisi lengkap
+form validasi yang saya buat harus diisi dengan lengkap dan benar dan jika tidak diisi dengan lengkap maka akan muncul peringatan "Anda harus mengisi data dengan lengkap!"
+# berikut kode htmlnya :
 
-![imgpraktikum!](assets/img/praktikum/1-1.png)
+![img4!](lab5_javascript/praktikum5/foto1.png)
 
-Penjelasan
-- Pertama membuat nama function Alphabet, dengan parameter dinamis yaitu (nilai, pesan).
-- Data yang boleh dimasukkan adalah berupa "a-zA-Z".
-- Jika selain data "a-zA-Z" ini dimasukkan, maka akan muncul pesan Alert "alert(pesan);"
+![img4!](lab5_javascript/praktikum5/foto2.png)
 
-![imgpraktikum!](assets/img/praktikum/1.png)
+Tambahkan juga css agar tampilan lebih menarik
 
-## 2. No.Telp
-Pada bagian ini akan saya berikan validasi berupa hanya angka saja yang boleh di inputkan, contoh: 12345 (benar), 123AB (salah).
+![img4!](lab5_javascript/praktikum5/css.png)
 
-![imgpraktikum!](assets/img/praktikum/2.png)
+Lalu lihat hasilnya pada browser
 
-Penjelasan:
-- var numberExp = /^[0-9]+$/; merupakan variabel numberExp yang diberi batasan validasi angka 0-9
-- Arti Match pada "if(nilai.value.match(numberExp))" adalah string.match(), mencari string menggunakan Regular Expression (Regex)
-- Jika salah atau inputan tidak benar maka akan ada pesan alert "alert(pesan);"
+![img4!](lab5_javascript/praktikum5/foto3.png)
 
-![imgpraktikum!](assets/img/praktikum/2-1.png)
+lihat juga apa yang terjadi jika data tidak diisi dengan lengkap
 
-## 3. Email
-Pada email akan diberikan validasi masih berupa Regular Expression. Contoh: fajar.agngn@gmail.com (benar), fajar.agngn@gmail. (salah).
+![img4!](lab5_javascript/praktikum5/foto4.png)
 
-![imgpraktikum!](assets/img/praktikum/3.png)
-
-Penjelasan:
-- membuat variabel email " var email = /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/; " berupa huruf, angka dan simbol yang diperbolehkan dalam input sebuah email. Jika email salah maka akan ada pesan alert "alert(pesan);"
-
-![imgpraktikum!](assets/img/praktikum/3-1.png)
-
-## Berikut penulisan form yang benar
-
-![imgpraktikum!](assets/img/praktikum/4.png)
-
-
+# keterangan
+disini kita menjalankan fungsi validasi saat form di submit atau saat klik daftar
+yang mana fungsi validasi sudah di buat untuk cek inputan. dan setiap isian data harus diisi dengan lengkap sehingga hasilnya benar dan apa bila tidak diisi akan terjadi peringatan untuk mengisi data dengan lengkap.
 
 
 
